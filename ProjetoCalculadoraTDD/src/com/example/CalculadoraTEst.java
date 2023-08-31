@@ -9,7 +9,7 @@ class CalculadoraTEst {
 	@Test
 	public void testSoma() {
 		Calculadora calc = new Calculadora();
-		asserEquals(5, calc.soma(2, 3));
+		assertEquals(5, calc.soma(2, 3));
 	}
 
 }
