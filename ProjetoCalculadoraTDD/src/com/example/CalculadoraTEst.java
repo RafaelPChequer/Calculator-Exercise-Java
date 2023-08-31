@@ -11,5 +11,11 @@ class CalculadoraTEst {
 		Calculadora calc = new Calculadora();
 		assertEquals(5, calc.soma(2, 3));
 	}
+	
+	@Test
+	public void testMult() {
+		Calculadora calc = new Calculadora();
+		assertEquals(6, calc.mult(2, 3));
+	}
 
 }
