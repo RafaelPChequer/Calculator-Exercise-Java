@@ -18,4 +18,9 @@ class CalculadoraTEst {
 		assertEquals(6, calc.mult(2, 3));
 	}
 
+	@Test
+	public void testDiv() {
+		Calculadora calc = new Calculadora();
+		assertEquals(6, calc.div(2, 3));
+	}
 }
