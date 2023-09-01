@@ -23,4 +23,10 @@ class CalculadoraTEst {
 		Calculadora calc = new Calculadora();
 		assertEquals(6, calc.div(2, 3));
 	}
+
+	@Test
+    	public void testSubtrai() {
+        	Calculadora calc = new Calculadora();
+        	assertEquals(-1, calc.subtrai(2, 3));
+    }
 }
