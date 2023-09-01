@@ -22,6 +22,7 @@ class CalculadoraTEst {
 	public void testDiv() {
 		Calculadora calc = new Calculadora();
 		assertEquals(6, calc.div(2, 3));
+		assertEquals(0, calc.div(2, 0));
 	}
 
 	@Test
